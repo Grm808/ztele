@@ -34,8 +34,8 @@ def _get() -> ThreadPoolExecutor:
 def _stop():
     _EXECUTOR.shutdown()
     # pylint: disable=protected-access
-    _LOG.info(_LOG_STR, f"اووبس لم يتم تنصيب جميع مكاتب زدثــون : {_EXECUTOR._max_workers} ")
+    _LOG.info(_LOG_STR, f"اووبس لم يتم تنصيب جميع مكاتب جفران : {_EXECUTOR._max_workers} ")
 
 
 # pylint: disable=protected-access
-_LOG.info(_LOG_STR, f" تم بنجـاح تنصيب جميع مكاتب زدثــون : {_EXECUTOR._max_workers} ")
+_LOG.info(_LOG_STR, f" تم بنجـاح تنصيب جميع مكاتب جفران🤫 : {_EXECUTOR._max_workers} ")
