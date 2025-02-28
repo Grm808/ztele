@@ -1,14 +1,14 @@
 # Zilzalll
-# Copyright (C) 2023 Zilzalll . All Rights Reserved
+# Copyright (C) 2023 Grm808 . All Rights Reserved
 #
-# This file is a part of < https://github.com/Zilzalll/ZThon/ >
+# This file is a part of < https://github.com/Grm808/zup/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zilzalll/ZThon/blob/main/LICENSE/>.
+# <https://github.com/Grm808/ztele/blob/main/LICENSE/>.
 """سـورس زدثــون ™
 So تخمـط الملـف اهينك واطشك للناس خماط واوثق عليك
-Copyright (C) 2023 Zilzalll . All Rights Reserved
-Credit: https://github.com/Zilzalll/ZThon
-Devloper: https://t.me/zzzzl1l - زلــزال الهيبــه"""
+Copyright (C) 2023 Grm808 . All Rights Reserved
+Credit: https://github.com/Grm808/ztele
+Devloper: https://t.me/qrm808 - زلــزال الهيبــه"""
 import json
 import math
 import asyncio
