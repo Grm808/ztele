@@ -12,24 +12,24 @@ LOGS = logging.getLogger("ZTele")
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("⌭ جـارِ تحميـل الملحقـات ⌭")
+    LOGS.info("🤫⌭ جـارِ تحميـل الملحقـات ⌭")
     zedub.loop.run_until_complete(autovars())
-    LOGS.info("✓ تـم تحميـل الملحقـات .. بنجـاح ✓")
+    LOGS.info("🤫✓ تـم تحميـل الملحقـات .. بنجـاح ✓")
 except Exception as e:
     LOGS.error(f"- {e}")
 
 if not Config.ALIVE_NAME:
     try:
-        LOGS.info("⌭ بـدء إضافة الاسـم التلقـائـي ⌭")
+        LOGS.info("🤫⌭ بـدء إضافة الاسـم التلقـائـي ⌭")
         zedub.loop.run_until_complete(autoname())
         LOGS.info("✓ تـم إضافة فار الاسـم .. بـنجـاح ✓")
     except Exception as e:
         LOGS.error(f"- {e}")
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل زدثــون ⌭")
+    LOGS.info("🤫⌭ بـدء تنزيـل زدثــون ⌭")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل زدثــون .. بـنجـاح ✓")
+    LOGS.info("🤫✓ تـم تنزيـل زدثــون .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
@@ -40,23 +40,23 @@ class CatCheck:
 Catcheck = CatCheck()
 
 try:
-    LOGS.info("⌭ بـدء إنشـاء البـوت التلقـائـي ⌭")
+    LOGS.info("🤫⌭ بـدء إنشـاء البـوت التلقـائـي ⌭")
     zedub.loop.run_until_complete(mybot())
-    LOGS.info("✓ تـم إنشـاء البـوت .. بـنجـاح ✓")
+    LOGS.info("🤫✓ تـم إنشـاء البـوت .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"- {e}")
 
 try:
-    LOGS.info("⌭ جـارِ تفعيـل الاشتـراك ⌭")
+    LOGS.info("🤫⌭ جـارِ تفعيـل الاشتـراك ⌭")
     zedub.loop.create_task(saves())
-    LOGS.info("✓ تـم تفعيـل الاشتـراك .. بنجـاح ✓")
+    LOGS.info("🤫✓ تـم تفعيـل الاشتـراك .. بنجـاح ✓")
 except Exception as e:
     LOGS.error(f"- {e}")
 
 try:
-    LOGS.info("⌭ جـارِ تفعيـل الاشتـراك ⌭")
+    LOGS.info("🤫⌭ جـارِ تفعيـل الاشتـراك ⌭")
     zedub.loop.create_task(supscrips())
-    LOGS.info("✓ تـم تفعيـل الاشتـراك .. بنجـاح ✓")
+    LOGS.info("🤫✓ تـم تفعيـل الاشتـراك .. بنجـاح ✓")
 except Exception as e:
     LOGS.error(f"- {e}")
 
