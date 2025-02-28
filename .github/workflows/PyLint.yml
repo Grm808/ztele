@@ -30,6 +30,6 @@ jobs:
           commit_message: 'إعداد تلقائي'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: ZThon-Bot
+          commit_user_name: Grm808
           commit_user_email: tc8ccg@gmail.com
-          commit_author: ZThon-Bot<tc8ccg@gmail.com>
+          commit_author: Grm808<tc8ccg@gmail.com>
