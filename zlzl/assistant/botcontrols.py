@@ -226,7 +226,7 @@ async def ban_starters(event):
     "لـ جلب قائمـة بالمستخـدمين المحظـورين من بـوتك المسـاعـد"
     ulist = get_all_bl_users()
     if len(ulist) == 0:
-        return await edit_delete(event, "**- لـم تقـم بحظـر احـد بعـد**")
+        return await edit_delete(event, "**- لـم تقـم بحظـر احـد بعـد ههههههه؟**")
     msg = "**- قـائمـة محظـورين البـوت المسـاعـد الخـاص بـك :\n\n**"
     for user in ulist:
         msg += f"**• المستخـدم :**  {_format.mentionuser(user.first_name , user.chat_id)}\n**• الايـدي :** `{user.chat_id}`\n**• المعـرف :** @{user.username}\n**• تاريـخ الإشتـراك : **__{user.date}__\n**• السبب :** __{user.reason}__\n\n"
