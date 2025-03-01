@@ -63,7 +63,7 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zedub
-DEV = 1895219306
+DEV = 55265877
 
 
 async def autovars(): #Code by T.me/zzzzl1l
@@ -171,13 +171,13 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"مسـاعـد - {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"القادح ~ {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setuserpic")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "zlzl/zilzal/logozed.jpg")
+            await bot.send_file("@BotFather", "zlzl/zilzal/cvgn.jpg")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setcommands")
             await asyncio.sleep(1)
@@ -237,7 +237,7 @@ async def startupmessage():
         if msg_details:
             await zedub.check_testcases()
             message = await zedub.get_messages(msg_details[0], ids=msg_details[1])
-            text = message.text + "\n\n**•⎆┊تـم اعـادة تشغيـل السـورس بنجــاح 🧸♥️**"
+            text = message.text + "\n\n**•⎆┊تـم اعـادة تشغيـل السـورس بنجــاح 😎**"
             await zedub.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
                 await zedub.send_message(
