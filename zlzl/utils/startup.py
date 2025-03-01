@@ -177,7 +177,7 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "zlzl/zilzal/cvgn.jpg")
+            await bot.send_file("@BotFather", "zlzl/cvgn.jpg")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setcommands")
             await asyncio.sleep(1)
